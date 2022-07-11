@@ -6,6 +6,11 @@
   --tumbleweed: #eaac8bff;
 }
 
+html,
+body {
+  min-height: 100%;
+}
+
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -30,23 +35,43 @@ div a {
 
 .about-me-section {
   display: flex;
-  border: 2px solid black;
+
   margin-top: 20px;
   background-color: var(--y-in-mn-blue);
 }
+.profile-pic-div {
+  display: flex;
+  flex-wrap: wrap;
+}
 .profile-pic {
-  flex-grow: 1;
   height: 250px;
   width: 250px;
 }
 
 .about-me-paragraph {
-  flex-grow: 2;
   margin-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
   color: white;
   background-color: var(--y-in-mn-blue);
-  text-align: center;
+  text-align: left;
+}
+
+.first-project {
+  display: flex;
+  background-color: var(--y-in-mn-blue);
+  margin-top: 15px;
+}
+
+.first-project-image {
+  height: 300px;
+}
+
+.first-project-paragraph {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  color: white;
 }
