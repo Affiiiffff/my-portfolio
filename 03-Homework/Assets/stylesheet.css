@@ -1,0 +1,29 @@
+:root {
+  --y-in-mn-blue: #355070ff;
+  --chinese-violet: #6d597aff;
+  --cinnamon-satin: #b56576ff;
+  --candy-pink: #e56b6fff;
+  --tumbleweed: #eaac8bff;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  outline: 2px solid black;
+  background-color: var(--y-in-mn-blue);
+  line-height: 10px;
+}
+.portfolio {
+  margin-right: 400px;
+  margin-left: 0px;
+  color: var(--tumbleweed);
+  font-size: 30px;
+}
+div a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+  margin-top: 25px;
+}
