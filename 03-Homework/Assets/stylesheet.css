@@ -15,9 +15,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: end;
-
+  padding: 2px;
   background-color: var(--y-in-mn-blue);
   line-height: 10px;
+  border: 5px solid black;
 }
 .portfolio {
   margin-right: 400px;
@@ -35,6 +36,7 @@ div a {
 
 .about-me-section {
   display: flex;
+  border: 5px solid black;
 
   margin-top: 20px;
   background-color: var(--y-in-mn-blue);
@@ -64,6 +66,7 @@ div a {
   display: flex;
   background-color: var(--y-in-mn-blue);
   margin-top: 15px;
+  border: 5px solid black;
 }
 
 .first-project-image {
@@ -78,14 +81,15 @@ div a {
   color: white;
 }
 
-.otherprojects {
-}
-
 .other-projects-section {
+  display: flex;
+  justify-content: space-around;
   margin-top: 15px;
-  border: 1 px solid black;
+  border: 5px solid black;
   background-color: var(--y-in-mn-blue);
   display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .coming-soon-img {
@@ -95,10 +99,33 @@ div a {
 
 .contactme-container {
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
+  margin-top: 15px;
+  background-color: var(--y-in-mn-blue);
+  border: 5px solid black;
 }
 
 .github-container {
   display: flex;
   flex-direction: column;
+  background-color: var(--y-in-mn-blue);
+  text-align: center;
+  color: white;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--y-in-mn-blue);
+  color: white;
+}
+
+.phone-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--y-in-mn-blue);
+  text-align: center;
+  color: white;
 }
