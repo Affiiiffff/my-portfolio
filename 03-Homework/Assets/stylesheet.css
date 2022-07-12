@@ -70,8 +70,9 @@ body {
 
 .first-project {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+
   background-color: var(--y-in-mn-blue);
   margin-top: 15px;
   border: 5px solid black;
@@ -90,6 +91,7 @@ body {
   margin-left: 15px;
   color: white;
   text-align: center;
+  width: 700px;
 }
 
 .other-projects-section {
