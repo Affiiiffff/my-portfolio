@@ -9,6 +9,7 @@
 html,
 body {
   min-height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .nav-container {
@@ -21,12 +22,12 @@ body {
   border: 5px solid black;
 }
 .portfolio {
-  margin-right: 400px;
+  margin-right: 450px;
   margin-left: 0px;
-  color: var(--tumbleweed);
+  color: gold;
   font-size: 30px;
 }
-div a {
+.nav-links {
   text-decoration: none;
   font-size: 20px;
   margin: 10px;
@@ -34,17 +35,22 @@ div a {
   margin-top: 25px;
 }
 
+.nav-links:hover {
+  color: gray;
+}
 .about-me-section {
   display: flex;
   border: 5px solid black;
-
   margin-top: 20px;
   background-color: var(--y-in-mn-blue);
 }
-.profile-pic-div {
+
+.aboutmecontainer {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
+
 .profile-pic {
   margin-top: 15px;
   height: 250px;
@@ -55,7 +61,7 @@ div a {
   margin-left: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   color: white;
   background-color: var(--y-in-mn-blue);
@@ -64,32 +70,42 @@ div a {
 
 .first-project {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--y-in-mn-blue);
   margin-top: 15px;
   border: 5px solid black;
 }
 
 .first-project-image {
-  height: 300px;
+  height: 250px;
+  width: 250px;
   margin-top: 10px;
 }
 
 .first-project-paragraph {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-left: 15px;
   color: white;
+  text-align: center;
 }
 
 .other-projects-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 15px;
   border: 5px solid black;
   background-color: var(--y-in-mn-blue);
   display: flex;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.otherprojectsimg {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .coming-soon-img {
@@ -128,4 +144,17 @@ div a {
   background-color: var(--y-in-mn-blue);
   text-align: center;
   color: white;
+}
+
+.emailtext {
+  font-size: 40px;
+  color: gold;
+}
+
+@media (max-width: 600px) {
+  .other-projects-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
