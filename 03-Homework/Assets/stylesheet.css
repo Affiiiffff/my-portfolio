@@ -22,8 +22,8 @@ body {
   border: 5px solid black;
 }
 .portfolio {
-  margin-right: 450px;
-  margin-left: 0px;
+  padding-right: 300px;
+
   color: gold;
   font-size: 30px;
 }
@@ -55,6 +55,7 @@ body {
   margin-top: 15px;
   height: 250px;
   width: 250px;
+  margin-left: 15px;
 }
 
 .about-me-paragraph {
@@ -109,13 +110,14 @@ body {
 }
 
 .coming-soon-img {
-  width: 300px;
+  width: 175px;
   margin-top: 10px;
 }
 
 .contactme-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   flex-direction: row;
   margin-top: 15px;
   background-color: var(--y-in-mn-blue);
